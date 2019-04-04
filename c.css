@@ -1,0 +1,28 @@
+.menu {
+    background-color: bisque;
+
+
+    padding: 20px;
+    flex: 30%;
+
+}
+.blog {
+    flex: 70%;
+    background-color: aquamarine;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+body{
+    margin: 0;
+}
+.avatar
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid palevioletred; /* Параметры рамки */
+}
