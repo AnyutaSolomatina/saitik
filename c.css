@@ -6,6 +6,7 @@
 .blog {
     width: 100%;
     background-color: rgb(208, 245, 245);
+    overflow: scroll;
 }
 .container
 {
@@ -24,10 +25,9 @@ body{
     border-radius: 100px; /* Радиус скругления */
     border: 3px solid rgb(233, 183, 200); /* Параметры рамки */
 }
-span {
+.mark {
     display: flex;
     flex-direction: column;
-
 }
 
 .menu_header{
@@ -64,4 +64,46 @@ li{
 .name{
     font-family: "Snell Roundhand" , cursive;
     font-size: 20px;
+}
+
+.img-responsive{
+    width: 200px;
+    height: 250px;
+    margin-left: 15%;
+}
+
+.narration{
+    font-family: "Snell Roundhand" , cursive;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.heading_narration{
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.row{
+    display: flex;
+}
+
+.first_recording{
+    justify-content: center;
+    width: 33%;
+}
+
+.second_recording{
+    justify-content: center;
+    width: 33%;
+}
+
+.third_recording{
+    justify-content: center;
+    width: 33%;
+}
+
+.signature{
+    margin-left: 15%;
 }
